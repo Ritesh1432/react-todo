@@ -59,6 +59,8 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos])
 
+  
+
   return (
     <>
   <Router>
@@ -71,6 +73,7 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
+          
     </Switch>
    <Footer />
   </Router>
